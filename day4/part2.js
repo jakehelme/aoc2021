@@ -26,7 +26,7 @@ inputNumbers.forEach(inputNumber => {
     });
     boards.forEach((board, boardIndex) => {
         if(isRowBingo(board) || isColBingo(board)) {
-            lastWinningBoard = JSON.parse(JSON.stringify(board));
+            lastWinningBoard = [...board];
             lastNumber = inputNumber;
             delete boards[boardIndex];
         }
@@ -63,4 +63,3 @@ function isColBingo(board) {
     return false;
 }
 
-console.log(inputNumbers);

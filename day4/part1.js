@@ -54,5 +54,3 @@ function isColBingo(board) {
     }
     return false;
 }
-
-console.log(inputNumbers);

@@ -24,14 +24,6 @@ straights.forEach(line => {
             grid[line[1]][i] === '.' ? grid[line[1]][i] = 1 : grid[line[1]][i]++;
         }
     } else {
-
-
-        // const m = (line[1] - line[3]) / (line[0] - line[2]);
-        // const c = line[1] - (m * line[0]);
-        // for (let x = Math.max(line[0], line[2]); x >= Math.min(line[0], line[2]); x--) {
-        //     const y = m * x + c;
-        //     grid[x][y] === '.' ? grid[x][y] = 1 : grid[x][y]++;
-        // }
         const m = (line[0] - line[2]) / (line[1] - line[3]);
         const c = line[0] - (m * line[1]);
         for (let x = Math.max(line[1], line[3]); x >= Math.min(line[1], line[3]); x--) {

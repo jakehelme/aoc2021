@@ -24,7 +24,6 @@ straights.forEach(x => {
             grid[x[1]][i] === '.' ? grid[x[1]][i] = 1 : grid[x[1]][i]++;
         }
     }
-
 });
 
 let count = 0;

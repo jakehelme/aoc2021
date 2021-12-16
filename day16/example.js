@@ -1,0 +1,15 @@
+module.exports = '9C0141080250320F1802104A08';
+// module.exports = '9C005AC2F8F0';
+// module.exports = 'F600BC2D8F';
+// module.exports = 'D8005AC2A8F0';
+// module.exports = 'CE00C43D881120';
+// module.exports = '880086C3E88112';
+// module.exports = '04005AC33890';
+// module.exports = 'C200B40A82';
+// module.exports = 'A0016C880162017C3686B18A3D4780';
+// module.exports = 'C0015000016115A2E0802F182340';
+// module.exports = '620080001611562C8802118E34';
+// module.exports = '8A004A801A8002F478';
+// module.exports = 'EE00D40C823060';
+// module.exports = '38006F45291200';
+// module.exports = 'D2FE28';
